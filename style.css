@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #292c34; /* Fond bleu-noir */
+    color: white;
+}
+
+header {
+    background-color: #1f222b; /* Fond bleu-noir plus foncé */
+    text-align: center;
+    padding: 1em;
+}
+
+#logo {
+    width: 100px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #1f222b; /* Fond bleu-noir plus foncé */
+    text-align: center;
+    padding: 1em;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Boutons */
+button {
+    background-color: #1f222b; /* Ancien fond bleu-noir plus foncé */
+    color: white;
+    padding: 15px 30px; /* Ajuste la taille des boutons */
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 4px; /* Réduit l'espace entre les boutons */
+    cursor: pointer;
+}
+
+/* Centrer le texte sur les boutons */
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Miniatures */
+.miniature {
+    width: 200px; /* Ajuste la taille des miniatures */
+    height: auto;
+    margin: 8px; /* Ajoute une marge entre les miniatures */
+}
+
